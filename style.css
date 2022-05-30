@@ -46,10 +46,10 @@ h3 {
   list-style: none;
 }
 input,
-.btn{
+button{
   outline: none;
 }
-.btn {
+button {
   background: none;
   border: 0px;
   color: #888;
@@ -58,7 +58,7 @@ input,
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.btn:hover {
+button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -122,12 +122,12 @@ li > label {
 li > input[type="text"] {
   width: 226px;
 }
-.btn.btn-delete img {
+button.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.btn.btn-delete img:hover {
+button.delete img:hover {
   transform: rotateZ(0);
 }
 
